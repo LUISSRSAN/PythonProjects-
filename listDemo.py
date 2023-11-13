@@ -63,3 +63,12 @@ def linear_Search(p_list,p_target):
 print(linear_Search(my_list,target))
 
 
+a = [1,2,3]
+b= [4,5,6,7]
+c = a + b
+
+print(c)
+
+prev_list =[-1,1,2,23]
+new_list = [number*number for number in prev_list if number <0]
+print(new_list)
